@@ -1,6 +1,5 @@
 <a href="https://alfo0924.github.io/GameTestExplorer/">GameTest Explorer</a>
 
-以下是對您提供的 **GameTestExplorer** 網站的詳細介紹，包括其特點、優點、內容、目標使用者族群，以及程式碼的應用邏輯、應用原理和使用的方法。
 
 ## 網站介紹
 
