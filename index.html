@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameTestExplorer - 遊戲測試探索</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>遊戲測試探索</h1>
+    <p>點擊下方卡片，了解不同類型的遊戲測試！</p>
+    <div class="card-grid">
+        <div class="card" data-test="functional">
+            <h2>功能測試</h2>
+            <p class="short-desc">確認遊戲是否能正常開始、得分是否正確。</p>
+            <div class="detail">
+                <p>就像檢查軟體功能是否符合需求，確保遊戲的基本功能運作無誤。</p>
+            </div>
+        </div>
+        <div class="card" data-test="performance">
+            <h2>效能測試</h2>
+            <p class="short-desc">看遊戲是否會卡頓或崩潰，測試反應速度。</p>
+            <div class="detail">
+                <p>就像評估軟體的及時性，確保遊戲在各種裝置上都能流暢運行。</p>
+            </div>
+        </div>
+        <div class="card" data-test="system">
+            <h2>系統測試</h2>
+            <p class="short-desc">模擬真實玩家操作，檢查遊戲整體表現。</p>
+            <div class="detail">
+                <p>就像以用戶角度測試完整軟體，確保遊戲各部分整合後正常運作。</p>
+            </div>
+        </div>
+        <div class="card" data-test="boundary">
+            <h2>極限值測試</h2>
+            <p class="short-desc">故意讓角色跑到地圖邊緣或同時開啟多功能，看會不會出錯。</p>
+            <div class="detail">
+                <p>就像測試軟體在極端條件下的表現，找出遊戲的極限與潛在問題。</p>
+            </div>
+        </div>
+        <div class="card" data-test="negative">
+            <h2>故障測試（陰性測試）</h2>
+            <p class="short-desc">輸入錯誤指令或關閉網路，看遊戲如何反應。</p>
+            <div class="detail">
+                <p>就像用無效輸入試圖找出軟體弱點，確保遊戲能妥善處理異常情況。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
