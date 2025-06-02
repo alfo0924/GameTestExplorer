@@ -1,5 +1,6 @@
 <a href="https://alfo0924.github.io/GameTestExplorer/">GameTest Explorer</a>
 
+###$
 ## 網站介紹
 
 ### 特點
