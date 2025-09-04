@@ -2,6 +2,19 @@
 
 #####--_--_--_--_-__-__-__-__-__-
 
+
+
+let count = 0;
+const limit = 500;
+const intervalId = setInterval(() => {
+  location.reload();
+  count++;
+  if (count >= limit) {
+    clearInterval(intervalId);
+  }
+}, 5000);
+
+
 ## 網站介紹
 
 ### 特點
