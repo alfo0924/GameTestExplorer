@@ -3,6 +3,16 @@
 #####--_--_--_--_-__-__-__-__-__-
 
 
+let count = 0;
+const maxCount = 500;
+const interval = setInterval(() => {
+  if (count >= maxCount) {
+    clearInterval(interval);
+  } else {
+    location.reload();
+    count++;
+  }
+}, 5000);
 
 
 
